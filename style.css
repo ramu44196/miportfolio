@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.btn-group a {
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #4f46e5;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4f46e5;
+}
+
+.skills .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skills span {
+  background: #fff;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.projects {
+  display: grid;
+  gap: 30px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #4f46e5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  background: #111827;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
